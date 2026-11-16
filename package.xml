@@ -3,12 +3,15 @@
 <package format="3">
     <name>terrain_model</name>
     <version>0.0.0</version>
-    <description>terrain_model package for the IFC workspace.</description>
+    <description>Local NED terrain grid from GeoTIFF DTM files.</description>
     <maintainer email="wggajda@gmail.com">Wojciech Gajda</maintainer>
     <license>TODO</license>
 
     <buildtool_depend>ament_cmake</buildtool_depend>
+    <depend>eigen</depend>
     <depend>ifc_msgs</depend>
+    <depend>ifc_tools</depend>
+    <depend>libgdal-dev</depend>
     <depend>rclcpp</depend>
 
     <export>
